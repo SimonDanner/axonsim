@@ -301,7 +301,7 @@ model_nr = get(handles.popupmenu_model,'Value');
 custom_fun = get(handles.edit_stimfun,'String');
 
 e_pos = e_pos * 1000;  %um
-phi = phi*100000; % ohm um
+phi = phi*10000; % ohm um
 
 I = str2double(get(handles.edit_strength,'String'));
 if e_type ~= 4
